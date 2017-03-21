@@ -44,8 +44,9 @@ int main( void )
 
 		if (valor != 0) {
 			*total += *roud;
+		} else {
+			*total = 0;
 		}
-
 		std::cout << ">> TOTAL ACUMULADO: " << *total << "\n";
 
 		if (atual == PLAYER_A) {
